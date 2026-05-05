@@ -40,19 +40,26 @@ export function AppSection() {
         <div className="grid items-center gap-12 lg:grid-cols-12">
           <div className="lg:col-span-6">
             <Reveal>
-              <p className="eyebrow text-brand-300">Founder reward</p>
+              <p className="eyebrow text-brand-300">Why we built this</p>
               <h2 className="heading-section mt-3 text-cream-50">
-                Plus: 3 months free
+                Healthy owners.
                 <br />
-                on our pet care app.
+                Happier pets.
               </h2>
             </Reveal>
             <Reveal delay={0.1}>
               <p className="mt-6 text-lg leading-relaxed text-cream-100/80">
-                Most owners don’t fall behind because they don’t care — they
-                fall behind because routines, reminders, and habits get
-                scattered. Our app turns good intentions into a simple system.
+                We believe great pet care starts with you. When you move, rest,
+                and stay consistent, your pet feels it too. The Shelter Run
+                gets us moving — for shelter dogs, and for ourselves. Our app
+                keeps that consistency going at home, every day after.
               </p>
+            </Reveal>
+            <Reveal delay={0.18}>
+              <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-brand-300/30 bg-brand-500/10 px-4 py-2 text-sm font-medium text-brand-200">
+                <span className="h-1.5 w-1.5 rounded-full bg-brand-300" />
+                Founder bonus: first 3 months free
+              </div>
             </Reveal>
 
             <div className="mt-8 grid gap-4 sm:grid-cols-2">

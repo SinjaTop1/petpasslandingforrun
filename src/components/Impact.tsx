@@ -33,9 +33,13 @@ export function Impact() {
           </Reveal>
           <Reveal delay={0.1} className="lg:col-span-6">
             <p className="text-lg leading-relaxed text-ink-600">
-              We didn’t want to launch our pet care app with just ads. The
-              Shelter Run lets people who care about pets do something real —
-              for dogs that need help today.
+              We didn’t want to launch our pet care app with just ads. We also
+              believe better pet care starts with{" "}
+              <span className="font-semibold text-ink-900">
+                healthy, happy owners
+              </span>{" "}
+              — which is exactly what a community run for shelter dogs brings
+              together.
             </p>
           </Reveal>
         </div>
